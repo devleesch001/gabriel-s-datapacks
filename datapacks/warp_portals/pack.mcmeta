@@ -1,42 +1,48 @@
 {
     "pack": {
         "description": "Create Warp Portals between your locations. Drop an Ender Pearl in a Crying Obsidian block to start.",
-        "pack_format": 8,
-		"supported_formats": {"min_inclusive": 8, "max_inclusive": 81}
+        "pack_format": 15,
+		"supported_formats": {"min_inclusive": 15, "max_inclusive": 2147483647},
+        "min_format": 15,
+        "max_format": 2147483647
     },
 	"overlays": {
 		"entries": [
 			{
-				"formats": {"min_inclusive": 18, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 18, "max_inclusive": 44},
 				"directory": "overlay_18"
 			},
 			{
-				"formats": {"min_inclusive": 33, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 33, "max_inclusive": 44},
 				"directory": "overlay_33"
 			},
 			{
-				"formats": {"min_inclusive": 34, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 34, "max_inclusive": 44},
 				"directory": "overlay_34"
 			},
 			{
-				"formats": {"min_inclusive": 36, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 36, "max_inclusive": 44},
 				"directory": "overlay_36"
 			},
 			{
-				"formats": {"min_inclusive": 37, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 37, "max_inclusive": 44},
 				"directory": "overlay_37"
 			},
 			{
-				"formats": {"min_inclusive": 43, "max_inclusive": 2147483647},
+				"formats": {"min_inclusive": 43, "max_inclusive": 44},
 				"directory": "overlay_43"
 			},
 			{
 				"formats": {"min_inclusive": 45, "max_inclusive": 2147483647},
-				"directory": "overlay_45"
+				"directory": "overlay_45",
+                "min_format": 45,
+                "max_format": 2147483647
 			},
 			{
 				"formats": {"min_inclusive": 61, "max_inclusive": 2147483647},
-				"directory": "overlay_61"
+				"directory": "overlay_61",
+                "min_format": 61,
+                "max_format": 2147483647
 			}
 		]
 	}
